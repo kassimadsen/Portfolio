@@ -27,7 +27,7 @@
     font-family: "Roboto", sans-serif;
     font-size: 1.1rem;
     color: var(--color-white);
-    transition: all 0.4s ease-in-out;
+    // transition: all 0.4s ease-in-out;
   }
   
   a {
@@ -55,7 +55,7 @@
   /* sections */
   .section {
     transform: translateY(-100%) scale(0);
-    transition: all 0.4s ease-in-out;
+    // transition: all 0.4s ease-in-out;
     background-color: var(--color-black);
   }
   
@@ -82,15 +82,15 @@
   /* active buttons */
   .active {
     display: block;
-    animation: scaleAnim 1s ease-in-out;
-    @keyframes scaleAnim {
-      0% {
-        transform: translateY(-100%) scale(0);
-      }
-      100% {
-        transform: translateY(0) scale(1);
-      }
-    }
+    // animation: scaleAnim 1s ease-in-out;
+    // @keyframes scaleAnim {
+    //   0% {
+    //     transform: translateY(-100%) scale(0);
+    //   }
+    //   100% {
+    //     transform: translateY(0) scale(1);
+    //   }
+    // }
   }
   
   .controlls {
@@ -105,7 +105,7 @@
     transform: translateY(-50%);
     .active-btn {
       background-color: var(--color-purple) !important;
-      transition: all 0.4s ease-in-out;
+      // transition: all 0.4s ease-in-out;
       i {
         columns: var(--color-white) !important;
       }
@@ -131,10 +131,6 @@
   }
 
 
-img{
-    height: 500px;
-}
-
 /* header content */
 .header-content{
     display: grid;
@@ -145,7 +141,7 @@ img{
         align-items: center;
         position: relative;
         .h-shape{
-            transition: all .4s ease-in-out;
+            // transition: all .4s ease-in-out;
             width: 65%;
             height: 100%;
             background-color: var(--color-white);
@@ -161,13 +157,13 @@ img{
             width: 38%;
             margin-left: 20rem;
             background-color: var(--color-black);
-            transition: all .4s ease-in-out;
+            // transition: all .4s ease-in-out;
             img{
                 width: 100%;
                 height: 100%;
                 border-radius: 14px;
                 object-fit: cover;
-                transition: all .4s ease-in-out;
+                // transition: all .4s ease-in-out;
             }
         }
     }
