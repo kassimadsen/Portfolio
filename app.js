@@ -1,7 +1,10 @@
 const sections = document.querySelectorAll(".section");
-const sectBtns = document.querySelectorAll(".controlls");
+const sectBtns = document.querySelectorAll(".controls");
 const sectBtn = document.querySelectorAll(".control");
 const allSections = document.querySelector(".main-content");
+const firstSec = document.getElementById("home");
+const secondSec = document.getElementById("about");
+const lastScrollTop = 0;
 
 function PageTransitions() {
   // make buttons active on click
