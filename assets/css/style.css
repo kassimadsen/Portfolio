@@ -5,6 +5,10 @@
   list-style: none;
 }
 
+a {
+  scroll-behavior: smooth;
+}
+
 :root {
   --color-primary: #191d2b;
   --color-secondary: #27ae60;
@@ -60,21 +64,29 @@ section {
 .sec1 {
   display: none;
   transform: translateY(0) scale(1);
+  height: 100vh;
+  width: 100vw;
 }
 
 .sec2 {
   display: none;
   transform: translateY(0) scale(1);
+  height: 100vh;
+  width: 100vw;
 }
 
 .sec3 {
   display: none;
   transform: translateY(0) scale(1);
+  height: 100vh;
+  width: 100vw;
 }
 
 .sec4 {
   display: none;
   transform: translateY(0) scale(1);
+  height: 100vh;
+  width: 100vw;
 }
 
 /* active buttons */
@@ -107,6 +119,7 @@ section {
   width: 55px;
   height: 55px;
   border-radius: 50%;
+  border: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,6 +130,9 @@ section {
   font-size: 1.2rem;
   color: var(--color-grey-2);
   pointer-events: none;
+}
+.controls .control:hover {
+  background-color: var(--color-white);
 }
 
 /* header content */
@@ -206,7 +222,6 @@ section {
   top: 0;
   right: 0;
   transform: translateX(-100%);
-  transition: all 0.4s ease-out;
   z-index: -1;
 }
 .main-btn:hover::before {
@@ -214,5 +229,4 @@ section {
   height: 100%;
   background-color: var(--color-purple);
   transform: translateX(0);
-  transition: all 0.4s ease-out;
 }/*# sourceMappingURL=style.css.map */

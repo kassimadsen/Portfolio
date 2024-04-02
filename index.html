@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Tab Icon -->
     <link href="assets/img/favicon.png" rel="icon" />
@@ -29,7 +29,7 @@
   </head>
 
   <body class="main-content">
-    <header class="section sec1 header active" id="home" href="#about ">
+    <header class="section sec1 header active" id="home">
       <div class="header-content">
         <div class="left-header">
           <h1 class="name">
@@ -64,24 +64,46 @@
       </div>
     </header>
     <main>
-      <section class="section sec2 about" id="about"></section>
-      <section class="section sec3 portfolio" id="portfolio"></section>
-      <section class="section sec4 contact" id="contact"></section>
+      <section class="section sec2 about" id="about">
+        <p>hi</p>
+      </section>
+      <section class="section sec3 portfolio" id="portfolio">
+        <p>hi1</p>
+      </section>
+      <section class="section sec4 contact" id="contact">
+        <p>hi2</p>
+      </section>
     </main>
 
     <div class="controls">
-      <div class="control control-1 active-btn" data-id="home">
+      <button
+        onclick="myFunction('home')"
+        class="control control-1 active-btn"
+        data-id="home"
+      >
         <i class="fa-solid fa-house"></i>
-      </div>
-      <div class="control control-2" data-id="about">
+      </button>
+      <button
+        onclick="myFunction('about')"
+        class="control control-2"
+        data-id="about"
+      >
         <i class="fa-solid fa-user"></i>
-      </div>
-      <div class="control control-3" data-id="portfolio">
+      </button>
+      <button
+        onclick="myFunction('portfolio')"
+        class="control control-3"
+        data-id="portfolio"
+      >
         <i class="fa-solid fa-book"></i>
-      </div>
-      <div class="control control-4" data-id="contact">
+      </button>
+      <button
+        onclick="myFunction('contact')"
+        class="control control-4"
+        data-id="contact"
+      >
         <i class="fa-solid fa-envelope"></i>
-      </div>
+      </button>
     </div>
 
     <script src="app.js"></script>
