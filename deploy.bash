@@ -12,5 +12,6 @@ scp_portfolio assets/img
 scp_portfolio assets/documents
 scp_portfolio app.js
 scp_portfolio index.html
+scp_portfolio index.js
 
 ssh -t 10.0.0.105 sudo systemctl restart kassi-portfolio
